@@ -29,7 +29,7 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-###Considerations
+### Considerations
 
 You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
 You must use bootstrap. This includes using the bootstrap navbar component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
