@@ -2,6 +2,27 @@
 
 We'll be creating a visualization dashboard website using visualizations we've created in a past project. Specifically, we'll be plotting weather data. In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
+## Files in this repo
+
+* WebVisualizations folder contains:
+  * index.html for landing page
+  * style.css
+  * max_temp.html for Max Temp page
+  * humidity.html for Humidity page
+  * cloudiness.html for Cloudiness page
+  * wind_speed.html for Wind Speed page
+  * comparisons.html for Comparison page
+  * data.html for Data page
+  * Resources folder
+    * Cities_Output.csv containing data
+    * DataCSVtoHTML.ipynb jupyter notebook used to read CSV and output HTML file
+    * table.html file created to use the code for Data page
+    * assets folder contains images used for webpages
+      * Latitude_vs_Cloudiness.png
+      * Latitude_vs_Humidity.png
+      * Latitude_vs_MaxTemperature.png
+      * Latitude_vs_WindSpeed.png
+
 ## Website Requirements
 
 The website must consist of 7 pages total, including:
@@ -29,7 +50,7 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-### Considerations
+##### Considerations
 
 You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
 You must use bootstrap. This includes using the bootstrap navbar component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
