@@ -2,7 +2,7 @@
 
 We'll be creating a visualization dashboard website using visualizations we've created in a past project. Specifically, we'll be plotting weather data. In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-# Website Requirements
+## Website Requirements
 
 The website must consist of 7 pages total, including:
 * A landing page containing:
@@ -29,7 +29,7 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-Considerations
+###Considerations
 
 You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
 You must use bootstrap. This includes using the bootstrap navbar component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
