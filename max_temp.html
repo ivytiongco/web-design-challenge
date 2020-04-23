@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Cloudiness</title>
+  <title>Max Temperature</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand button" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\index.html"><strong>Latitude</strong></a>
+    <a class="navbar-brand button" href="C:\Users\Ivy\Desktop\web-design-challenge\index.html"><strong>Latitude</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,17 +20,17 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\humidity.html">Humidity</a>
-            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\wind_speed.html">Wind Speed</a>
+            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\max_temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\humidity.html">Humidity</a>
+            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="C:\Users\Ivy\Desktop\web-design-challenge\wind_speed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\comparisons.html">Comparisons</a>
+          <a class="nav-link" href="C:\Users\Ivy\Desktop\web-design-challenge\comparisons.html">Comparisons</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\data.html">Data</a>
+          <a class="nav-link" href="C:\Users\Ivy\Desktop\web-design-challenge\data.html">Data</a>
         </li>
       </ul>
     </div>
@@ -41,31 +41,33 @@
     <div class="row">
       <div class="col-md-8">
         <section class="padding">
-        <h2><strong>Cloudiness</strong></h2>
+        <h2><strong>Max Temperature</strong></h2>
         <hr class="my-4">
 <!--        <section id="main">  
           <section id="plot-figure">  -->
-            <img class="img-fluid w-100" src="Resources/assets/Latitude_vs_Cloudiness.png" alt="Cloudiness">
+            <img class="img-fluid w-100" src="resources/assets/Latitude_vs_MaxTemperature.png" alt="Max Temp">
 <!--          </section>
         </section>  -->
-        <p>The City Latitude vs. Cloudiness scatter plot does not show a strong relationship between the 2 factors, with data points distributed fairly evenly.
+        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is 
+            the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of
+            the earth at the time of the year this data was gathered.
         </p>
       </div>
       <div class="col-md-4">
         <section class="padding">
         <h3><strong>Visualizations</strong></h3>
         <hr class="my-4">
-          <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\max_temp.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_MaxTemperature.png" alt="Max Temp">
+          <a href="C:\Users\Ivy\Desktop\web-design-challenge\max_temp.html">
+            <img id="vis-border" class="image-vis" src="resources/assets/Latitude_vs_MaxTemperature.png" alt="Max Temp">
           </a>
-          <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\humidity.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_Humidity.png" alt="Humidity">
+          <a href="C:\Users\Ivy\Desktop\web-design-challenge\humidity.html">
+            <img class="image-vis" src="resources/assets/Latitude_vs_Humidity.png" alt="Humidity">
           </a>
-          <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\cloudiness.html">
-            <img id="vis-border" class="image-vis" src="Resources/assets/Latitude_vs_Cloudiness.png" alt="Cloudiness">
+          <a href="C:\Users\Ivy\Desktop\web-design-challenge\cloudiness.html">
+            <img class="image-vis" src="resources/assets/Latitude_vs_Cloudiness.png" alt="Cloudiness">
           </a>
-          <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\wind_speed.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_WindSpeed.png" alt="Wind Speed">
+          <a href="C:\Users\Ivy\Desktop\web-design-challenge\wind_speed.html">
+            <img class="image-vis" src="resources/assets/Latitude_vs_WindSpeed.png" alt="Wind Speed">
           </a>        
       </section>  
       </div>
