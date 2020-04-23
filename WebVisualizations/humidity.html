@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Humidity</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -41,35 +41,31 @@
     <div class="row">
       <div class="col-md-8">
         <section class="padding">
-        <h2><strong>Summary: Latitude vs. X</strong></h2>
+        <h1><strong>Humidity</strong></h1>
         <hr class="my-4">
-        <section id="main">
-          <section id="figure">
-            <img id="main-image"src="Resources/assets/Latitude_vs_MaxTemperature.png" alt="Max Temp">
-          </section>
-        </section>
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled
-          data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
-          temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well
-          as explanations and descriptions of any trends and correlations witnessed.
+<!--        <section id="main">  
+          <section id="plot-figure">  -->
+            <img id="plot-figure" src="Resources/assets/Latitude_vs_Humidity.png" alt="Humidity">
+<!--          </section>
+        </section>  -->
+        <p>The City Latitude vs. Humidity scatter plot shows that cities within the latitude range of -60 to 80 tend to have high humidity rates.
         </p>
       </div>
       <div class="col-md-4">
         <section class="padding">
-        <h3><strong>Visualizations</strong></h3>
+        <h2><strong>Visualizations</strong></h2>
         <hr class="my-4">
           <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\max_temp.html">
             <img class="image-vis" src="Resources/assets/Latitude_vs_MaxTemperature.png" alt="Max Temp">
           </a>
           <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\humidity.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_Humidity.png" alt="Max Temp">
+            <img id="vis-border" class="image-vis" src="Resources/assets/Latitude_vs_Humidity.png" alt="Humidity">
           </a>
           <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\cloudiness.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_Cloudiness.png" alt="Max Temp">
+            <img class="image-vis" src="Resources/assets/Latitude_vs_Cloudiness.png" alt="Cloudiness">
           </a>
           <a href="C:\Users\Ivy\Desktop\web-design-challenge\WebVisualizations\wind_speed.html">
-            <img class="image-vis" src="Resources/assets/Latitude_vs_WindSpeed.png" alt="Max Temp">
+            <img class="image-vis" src="Resources/assets/Latitude_vs_WindSpeed.png" alt="Wind Speed">
           </a>        
       </section>  
       </div>

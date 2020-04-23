@@ -3,73 +3,142 @@
  */
 
 /* Styling for HTML elements */
+
 body {
-    padding: 0;
+/*    padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
-    line-height: 150%;
-    color: #333;
+    line-height: 150%;  
+    color: #333;  */
     background: #efeee7;
   }
   
-  header {
-    background: #333;
+
+header {
+  background: white;
+}
+
+h1, h2, h3 {
+  color: darkturquoise;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/*
+a {
+  color: #d21034;
+}
+*/
+
+/* Selecting elements by class */
+.image-vis {
+  width: 120px;
+  height: 120x;
+/*  margin-right: 20px; */
+  margin: 10px;
+/*  float: left; */
+}
+
+.padding {
+  padding: 30px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+/*
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+*/
+
+/* Selecting elements by ID 
+#main-bio,
+#contact-info,
+#main-image {
+  float: left;
+}
+*/
+
+#figure {
+  position: relative;
+}
+
+#plot-figure {
+  width: 650px;
+}
+
+#vis-border {
+  border: solid darkturquoise;
+}
+
+/*
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+*/
+
+#main {
+  float: left;  
+}
+
+/*
+#contact-info {
+  width: 30%;
+}
+*/
+
+#main-image {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;  
+}
+
+.button {
+  background-color: darkturquoise;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.table {
+  margin-top: 40px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: lightgray;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
   }
- 
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+  #plot-background {
+    background-color: lightgray;
+  }
+
   /*
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
+  #plot-figure {
+    width: 300px;
   }
   */
-
-  h2 {
-    font-size: 24px;
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #figure {
-    position: relative;
-  }
-  
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 300px;
-    height: 250px;
-    margin-right: 20px;
-  }
-  
