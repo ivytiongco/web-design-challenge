@@ -52,7 +52,7 @@ h2, h3 {
   background-color: lightgray;
 }
 
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 600 pixels */
+/* Adding media queries  */
 @media (max-width: 600px) {
   .navbar li {
     padding: 10px;
