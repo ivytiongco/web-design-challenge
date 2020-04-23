@@ -15,7 +15,7 @@ We'll be creating a visualization dashboard website using visualizations we've c
 * resources folder
   * Cities_Output.csv containing data
   * DataCSVtoHTML.ipynb jupyter notebook used to read CSV and output HTML file
-  * table.html file created to use the code for Data page
+  * table.html file created to use the HTML code for table on Data page
   * assets folder contains images used for webpages
     * Latitude_vs_Cloudiness.png
     * Latitude_vs_Humidity.png
