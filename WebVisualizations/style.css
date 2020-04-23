@@ -1,43 +1,16 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-
 body {
-/*    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;  
-    color: #333;  */
-    background: #efeee7;
+  background: #efeee7;
   }
   
-
-header {
-  background: white;
-}
-
-h1, h2, h3 {
+h2, h3 {
   color: darkturquoise;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-/*
-a {
-  color: #d21034;
-}
-*/
-
-/* Selecting elements by class */
 .image-vis {
   width: 120px;
   height: 120x;
-/*  margin-right: 20px; */
   margin: 10px;
-/*  float: left; */
 }
 
 .padding {
@@ -46,50 +19,17 @@ a {
   margin-top: 30px;
 }
 
-/*
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-*/
-
-/* Selecting elements by ID 
-#main-bio,
-#contact-info,
-#main-image {
-  float: left;
-}
-*/
-
 #figure {
   position: relative;
-}
-
-#plot-figure {
-  width: 650px;
 }
 
 #vis-border {
   border: solid darkturquoise;
 }
 
-/*
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
-*/
-
 #main {
   float: left;  
 }
-
-/*
-#contact-info {
-  width: 30%;
-}
-*/
 
 #main-image {
   width: 250px;
@@ -131,14 +71,9 @@ a {
   #nav-select {
     visibility: visible;
   }
+
+  .navbar {
+    background-color: darkturquoise !important;
+  }
+ 
 }
-
-  #plot-background {
-    background-color: lightgray;
-  }
-
-  /*
-  #plot-figure {
-    width: 300px;
-  }
-  */
