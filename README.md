@@ -4,24 +4,23 @@ We'll be creating a visualization dashboard website using visualizations we've c
 
 ## Files in this repo
 
-* WebVisualizations folder contains:
-  * index.html for landing page
-  * style.css
-  * max_temp.html for Max Temp page
-  * humidity.html for Humidity page
-  * cloudiness.html for Cloudiness page
-  * wind_speed.html for Wind Speed page
-  * comparisons.html for Comparison page
-  * data.html for Data page
-  * Resources folder
-    * Cities_Output.csv containing data
-    * DataCSVtoHTML.ipynb jupyter notebook used to read CSV and output HTML file
-    * table.html file created to use the code for Data page
-    * assets folder contains images used for webpages
-      * Latitude_vs_Cloudiness.png
-      * Latitude_vs_Humidity.png
-      * Latitude_vs_MaxTemperature.png
-      * Latitude_vs_WindSpeed.png
+* index.html for landing page
+* style.css
+* max_temp.html for Max Temp page
+* humidity.html for Humidity page
+* cloudiness.html for Cloudiness page
+* wind_speed.html for Wind Speed page
+* comparisons.html for Comparison page
+* data.html for Data page
+* resources folder
+  * Cities_Output.csv containing data
+  * DataCSVtoHTML.ipynb jupyter notebook used to read CSV and output HTML file
+  * table.html file created to use the code for Data page
+  * assets folder contains images used for webpages
+    * Latitude_vs_Cloudiness.png
+    * Latitude_vs_Humidity.png
+    * Latitude_vs_MaxTemperature.png
+    * Latitude_vs_WindSpeed.png
 
 ## Website Requirements
 
