@@ -22,7 +22,7 @@ We'll be creating a visualization dashboard website using visualizations we've c
     * Latitude_vs_MaxTemperature.png
     * Latitude_vs_WindSpeed.png
 
-## Website Requirements
+## Website Requirements Met
 
 The website must consist of 7 pages total, including:
 * A landing page containing:
