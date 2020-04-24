@@ -5,7 +5,7 @@ We'll be creating a visualization dashboard website using visualizations we've c
 ## Files in this repo
 
 * index.html for landing page
-* style.css
+* style.css used by all pages
 * max_temp.html for Max Temp page
 * humidity.html for Humidity page
 * cloudiness.html for Cloudiness page
