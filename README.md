@@ -23,15 +23,15 @@ We'll be creating a visualization dashboard website using visualizations we've c
 
     * Latitude_vs_Humidity.png
     
-    ![](static/images/chartist_line_bar.png)
+    ![](resources/assets/Latitude_vs_Humidity.png)
 
     * Latitude_vs_MaxTemperature.png
     
-    ![](static/images/chartist_line_bar.png)
+    ![](resources/assets/Latitude_vs_MaxTemperature.png)
 
     * Latitude_vs_WindSpeed.png
     
-    ![](static/images/chartist_line_bar.png)
+    ![](resources/assets/Latitude_vs_WindSpeed.png)
 
 
 ## Website Requirements Met
