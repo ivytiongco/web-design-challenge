@@ -18,9 +18,21 @@ We'll be creating a visualization dashboard website using visualizations we've c
   * table.html file created to use the HTML code for table on Data page
   * assets folder contains images used for webpages
     * Latitude_vs_Cloudiness.png
+    
+    ![](resources/assets/Latitude_vs_Cloudiness.png)
+
     * Latitude_vs_Humidity.png
+    
+    ![](static/images/chartist_line_bar.png)
+
     * Latitude_vs_MaxTemperature.png
+    
+    ![](static/images/chartist_line_bar.png)
+
     * Latitude_vs_WindSpeed.png
+    
+    ![](static/images/chartist_line_bar.png)
+
 
 ## Website Requirements Met
 
@@ -47,4 +59,6 @@ The website must, at the top of every page, have a navigation menu that:
 * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
 
-Finally, the website must be deployed to GitHub pages.
+### GitHub Pages Site
+
+https://ivytiongco.github.io/web-design-challenge/
